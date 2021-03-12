@@ -1,6 +1,7 @@
 import React from 'react';
 import POPOSSpace from './POPOSSpace';
 import MyComp from './POPOSSpace';
+import './POPOSList.css';
 
 function POPOSList() {
   return (

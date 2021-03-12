@@ -2,6 +2,7 @@
 
 import React from 'react'
 import logo from './logo.svg'
+import './POPOSSpace.css';
 
 function POPOSSpace(props) {
  const { name, image, address } = props
@@ -16,13 +17,6 @@ function POPOSSpace(props) {
       <div>{address}</div>
     </div>
   )
-}
-function MyComp(props) {
- 
-  <div>
-    <h1>{props.message}</h1> // Hello World
-    <p>{props.value}</p> // 42
-  </div>
 }
 
 export default POPOSSpace
