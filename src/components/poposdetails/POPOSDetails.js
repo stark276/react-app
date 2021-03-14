@@ -2,8 +2,7 @@
 
 import React from 'react'
 
-import data from './sfpopos-data.json'
-
+import data from '../../sfpopos-data.json'
 function POPOSDetails(props) {
   const { id } = props.match.params // Location index
   const { images, title, desc, hours, features, geo } = data[id]

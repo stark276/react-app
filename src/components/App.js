@@ -2,13 +2,13 @@
 
 import React from 'react';
 import './App.css';
-import Title from './Title';
-import POPOSList from './POPOSList';
-import Footer from './Footer'
+import Title from './title/Title';
+import POPOSList from './poposlist/POPOSList';
+import Footer from './footer/Footer'
 import { HashRouter as Router, Route } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
-import POPOSDetails from './POPOSDetails'
-import About from './About'
+import POPOSDetails from './poposdetails/POPOSDetails'
+import About from './About/About'
 
 function App() {
   return (
